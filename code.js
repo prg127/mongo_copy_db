@@ -12,7 +12,7 @@ MongoClient.connect(url1,function(err,db){
   }
   else
   {
-      console.log("database1 created");
+      console.log("database1 create");
   }
   db.close();
   });
