@@ -26,7 +26,7 @@ MongoClient.connect(url1,function(err,db){
     }
     else
     {
-        console.log("database2 created");
+        console.log("database2 create");
     }
     db.close();
     });
